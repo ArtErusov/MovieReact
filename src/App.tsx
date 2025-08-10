@@ -1,7 +1,9 @@
+import TestTwo from '@/Test/TestTwo';
+
 function App() {
   return (
     <>
-      <p>Привет мир</p>
+      <TestTwo />
     </>
   );
 }
