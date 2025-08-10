@@ -1,0 +1,8 @@
+@import './reset.css';
+body {
+  background-color: aquamarine;
+}
+
+:root {
+  --test-color: #b15e5e;
+}
