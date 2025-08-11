@@ -1,11 +1,11 @@
+// @use '@/styles/helpers' as *;
 @import '../styles/main.css';
-
 .test {
   width: 100px;
   height: 100px;
   background-color: var(--test-color);
 
   &-text {
-    font-size: 40px;
+    @include fluid-text(150, 140);
   }
 }

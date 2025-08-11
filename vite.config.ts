@@ -13,6 +13,13 @@ import path from 'path';
 
 // https://vite.dev/config/
 export default defineConfig({
+  css: {
+    preprocessorOptions: {
+      scss: {
+        additionalData: `@use "@/styles/helpers" as *;`,
+      },
+    },
+  },
   plugins: [react()],
   resolve: {
     alias: {
