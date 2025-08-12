@@ -1,9 +1,11 @@
-import TestTwo from '@/Test/TestTwo';
+import Header from './layouts/Header/Header';
+import Test from './Test';
 
 function App() {
   return (
     <>
-      <TestTwo />
+      <Header />
+      <Test />
     </>
   );
 }

@@ -1,8 +1,4 @@
 @use './reset.scss';
 @use './fonts.scss';
 @use './variables.scss';
-
-body {
-  font-family: var(--font-famili-base);
-  background-color: aquamarine;
-}
+@use './globals.scss';

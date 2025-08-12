@@ -1,5 +1,4 @@
-@use './helpers/constants.scss' as *;
-@use './helpers/functions.scss' as *;
+@use './helpers' as *;
 
 :root {
   --color-white: #fff;
@@ -45,7 +44,7 @@
   --border-radius-xxs: 5px;
   --border-radius-xxxs: 4px;
 
-  --font-famili-base: 'Manrope', sans-serif;
+  --font-family-base: 'Manrope', sans-serif;
 
   --container-width: #{fluid-to-laptop($container-desktop-width, $container-laptop-width)};
 
